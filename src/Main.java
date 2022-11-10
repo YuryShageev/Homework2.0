@@ -1,31 +1,25 @@
 public class Main {
     public static void main(String[] args) {
         //Task 1;
-        System.out.println("Task 1");
-        var dog = 8;
-        System.out.println(dog);
-        var cat = 3.6;
-        System.out.println(cat);
-        var paper = 763789;
-        System.out.println(paper);
+        int dog = 8;
+        float cat = 3.6f;
+        int paper = 763789;
 
-        //Task 2
-        System.out.println("Task 2");
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
         dog = dog + 4;
         System.out.println(dog);
-        cat +=4;
+        cat = cat + 4;
         System.out.println(cat);
         paper = paper + 4;
         System.out.println(paper);
 
-        //Task 3
-        System.out.println("Task 3");
-        var dog1 = 8.0;
-        dog1 = dog1 - 3.5;
+        float dog1 = dog - 3.5f;
         System.out.println(dog1);
-        cat = cat - 1.6;
+        cat = cat - 1.6f;
         System.out.println(cat);
-        paper -= 7639;
+        paper = paper - 7639;
         System.out.println(paper);
     }
 }
